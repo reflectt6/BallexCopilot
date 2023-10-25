@@ -177,7 +177,7 @@ int WinMain(_In_ HINSTANCE hInstance,
             ImGui::Begin("Ballex Copilot!", &show_copilot, ImGuiWindowFlags_NoResize);
             // 设置窗口大小
             ImGui::SetWindowSize(ImVec2(200, 120));
-            ImGui::Checkbox(u8"小球锁血", &lock_blood);
+            ImGui::Checkbox(u8"纸球锁血", &lock_blood);
 
             if (ImGui::Button(u8"Reconnect Ballex")) {
                 initHack = false;
